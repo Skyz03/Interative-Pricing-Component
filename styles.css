@@ -24,6 +24,19 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+#main-container {
+  background-image: url("images/pattern-circles.svg"),
+    url("images/bg-pattern.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+  background-size: 10%, 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
