@@ -28,13 +28,17 @@ body {
   background-image: url("images/pattern-circles.svg"),
     url("images/bg-pattern.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: top center, top center;
+  background-position: center 10%, top center;
   background-size: 10%, 100%;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   text-align: center;
   position: relative;
+}
+
+.content {
+  margin: 4rem;
 }
 
 .attribution {
