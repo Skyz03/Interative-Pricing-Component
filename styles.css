@@ -41,6 +41,16 @@ body {
   margin: 4rem;
 }
 
+.title {
+  font-size: 1.5rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  opacity: 0.5;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
