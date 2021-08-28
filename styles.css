@@ -51,6 +51,16 @@ body {
   opacity: 0.5;
 }
 
+.card {
+  background-color: var(--Very-Pale-Blue);
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
