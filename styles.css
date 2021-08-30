@@ -56,26 +56,38 @@ body {
   padding: 2rem;
   width: 50%;
   margin: 2rem auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "page month"
+    "slider"
+    "billing"
+    "feature"
+    "trial";
 }
 
-/* Inside the card component  */
-.pricing {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-  margin-bottom: 1rem;
+.page-view {
+  grid-area: page;
+}
+
+.per-month {
+  grid-area: month;
+}
+
+.slider {
+  grid-area: slider;
 }
 
 .billing {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-  width: 100%;
+  grid-area: billing;
+}
+
+.features {
+  grid-area: feature;
+}
+
+.trial {
+  grid-area: trial;
 }
 
 .switch {
@@ -91,6 +103,7 @@ body {
   height: 0;
 }
 
+/* This is for the cards. */
 .slider {
   position: absolute;
   cursor: pointer;
