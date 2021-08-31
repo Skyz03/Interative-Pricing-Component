@@ -54,16 +54,18 @@ body {
 .card {
   background-color: var(--Very-Pale-Blue);
   padding: 2rem;
-  width: 50%;
   margin: 2rem auto;
-  height: 100%;
   display: grid;
+  gap: 20px;
   grid-template-areas:
     "page month"
     "slider"
     "billing"
     "feature"
     "trial";
+  grid-template-columns: auto auto;
+  width: 50%;
+  height: 100%;
 }
 
 .page-view {
@@ -74,7 +76,7 @@ body {
   grid-area: month;
 }
 
-.slider {
+.meter {
   grid-area: slider;
 }
 
