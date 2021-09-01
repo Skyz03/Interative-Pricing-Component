@@ -61,10 +61,11 @@ body {
     "page month"
     "slider slider"
     "billing billing"
-    "feature feature"
-    "trial trial";
+    "feature trial";
   width: 50%;
   height: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .page-view {
@@ -81,6 +82,8 @@ body {
 
 .billing {
   grid-area: billing;
+  display: flex;
+  flex-direction: row;
 }
 
 .features {
