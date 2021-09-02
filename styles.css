@@ -52,9 +52,9 @@ body {
 }
 
 .card {
-  background-color: var(--Very-Pale-Blue);
+  background-color: #fff;
   padding: 2rem;
-  margin: 2rem auto;
+  margin: 5rem auto;
   display: grid;
   gap: 2rem;
   grid-template-areas:
@@ -62,7 +62,7 @@ body {
     "slider slider"
     "billing billing"
     "feature trial";
-  width: 50%;
+  width: 35%;
   height: 100%;
   text-align: center;
   justify-content: center;
@@ -70,10 +70,27 @@ body {
 
 .page-view {
   grid-area: page;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  text-align: left;
+  font-weight: 800;
+  letter-spacing: 1px;
+  align-self: center;
 }
 
 .per-month {
   grid-area: month;
+  opacity: 0.8;
+}
+/* 
+input[type="range"] {
+  background-color: red;
+} */
+
+#dollar {
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .meter {
@@ -84,6 +101,18 @@ body {
   grid-area: billing;
   display: flex;
   flex-direction: row;
+  font-size: 0.7rem;
+  justify-self: center;
+  align-items: center;
+}
+
+.discount {
+  font-size: 0.6rem;
+  color: var(--Light-Red);
+  background-color: red;
+  padding: 0.2rem;
+  border-radius: 50px;
+  margin-left: 0.7rem;
 }
 
 .features {
@@ -99,6 +128,7 @@ body {
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin: 10px;
 }
 
 .switch input {
