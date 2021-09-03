@@ -109,7 +109,7 @@ input[type="range"] {
 .discount {
   font-size: 0.6rem;
   color: var(--Light-Red);
-  background-color: red;
+  background-color: hsl(13, 58%, 94%);
   padding: 0.2rem;
   border-radius: 50px;
   margin-left: 0.7rem;
