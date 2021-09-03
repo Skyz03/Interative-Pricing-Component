@@ -117,6 +117,21 @@ input[type="range"] {
 
 .features {
   grid-area: feature;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  opacity: 0.5;
+  position: relative;
+}
+
+.feature::before {
+  content: "";
+  background-image: url("images/icon-check.svg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: -1.5rem;
 }
 
 .trial {
