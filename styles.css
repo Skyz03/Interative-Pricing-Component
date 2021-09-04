@@ -37,6 +37,7 @@ body {
   position: relative;
 }
 
+/* The title section */
 .content {
   margin: 4rem;
 }
@@ -51,10 +52,12 @@ body {
   opacity: 0.5;
 }
 
+/* The main grid Section */
 .card {
   background-color: #fff;
   padding: 2rem;
   margin: 5rem auto;
+  box-shadow: 1px 1px 20px var(--Light-Grayish-Blue);
   display: grid;
   gap: 2rem;
   grid-template-areas:
@@ -111,6 +114,7 @@ body {
   margin-left: 0.7rem;
 }
 
+/* The featurs section */
 .features {
   grid-area: feature;
   text-align: left;
@@ -120,6 +124,7 @@ body {
   position: relative;
 }
 
+/* The Check Image  */
 .feature::before {
   content: "";
   background-image: url(images/icon-check.svg);
@@ -130,6 +135,7 @@ body {
   left: -1.5rem;
 }
 
+/* The Trial button  */
 button {
   width: 90%;
   height: 55%;
@@ -144,6 +150,7 @@ button {
   border-radius: 50px;
 }
 
+/* This is for the toggle button  */
 .switch {
   position: relative;
   display: inline-block;
@@ -158,7 +165,6 @@ button {
   height: 0;
 }
 
-/* This is for the cards. */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -208,6 +214,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/* This is for the attribution name section  */
 .attribution {
   font-size: 11px;
   text-align: center;
