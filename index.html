@@ -31,8 +31,8 @@
         <p class="page-view"> 100K Pageviews</p>
         <p class="per-month"> <span id="dollar">$16.00</span> /month</p>
 
-        template
-        <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16">
+        <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16"
+          onchange="updateValue(this.value)">
         <output for="range" class="output"></output>
 
         <div class="billing">

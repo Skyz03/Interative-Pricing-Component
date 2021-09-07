@@ -1,5 +1,5 @@
-let range = $('#range');
+function updateValue(val) {
+    document.getElementById('range').value = val;
 
-range.on("input", function () {
-    $('#dollar').val(this.value);
-}).trigger("change");
+    document.getElementById('dollar').innerHTML = "$" + val + ".00";
+}
