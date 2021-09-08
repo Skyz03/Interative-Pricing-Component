@@ -29,7 +29,7 @@
       <div class="card">
 
         <p class="page-view"> 100K Pageviews</p>
-        <p class="per-month"> <span id="dollar">$16.00</span> /month</p>
+        <p id="per-month"> <span id="dollar">$16.00</span> /month</p>
 
         <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16"
           onchange="updateValue(this.value)">
@@ -39,7 +39,7 @@
           <p class="month-text"> Monthly Billing</p>
 
           <label class="switch">
-            <input type="checkbox">
+            <input id="check" type="checkbox" onclick="updateCheck()">
             <span class="slider round"></span>
           </label>
 
