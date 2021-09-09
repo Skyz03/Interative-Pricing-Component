@@ -7,52 +7,72 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <title> Interactive pricing component</title>
-
   <!-- CSS StyleSheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title> ⭐Interactive Pricing Component⭐</title>
 
 </head>
 
 <body>
 
-  <main id="main-container">
+  <main class="main">
 
-    <div class="content">
-      <h1 class="title"> Simple, traffic-based pricing</h1>
-      <p class="description"> Sign-up for our 30-day trial. No credit card required.</p>
+    <header class="header-wrap">
+      <h1 class="heading"> Simple, traffic-based pricing</h1>
+      <p class="subheading"> Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
 
-      <div class="card">
+    <div class="pricing-card--container">
 
-        <p class="page-view"> 100K Pageviews</p>
-        <p id="per-month"> <span id="dollar">$16.00</span> /month</p>
+      <!-- This container is used for the pricing slider + price and no of page view elements -->
+      <div class="upper--container">
 
-        <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16"
-          onchange="updateValue(this.value)">
-        <output for="range" class="output"></output>
+        <div class="pricing-output--wrap">
+          <p class="pageviews"> 100K Pageviews</p>
 
-        <div class="billing">
-          <p class="month-text"> Monthly Billing</p>
+          <!-- slider -->
+          <div class="pricing-slider">
+            <input type="range" class="slider" min="0" max="4" />
+            <button id="focusMe" aria-hidden="true">this button takes focus</button>
+          </div>
 
-          <label class="switch">
-            <input id="check" type="checkbox" onclick="updateCheck()">
-            <span class="slider round"></span>
-          </label>
+          <p class="price"> $16.00 <span class="perMonth"> /month</span></p>
 
-          <p class="year-text"> Yearly Billing <span class="discount"> 25% discount</span></p>
         </div>
 
-
-        <div class="features">
-          <p class="feature"> Unlimited websites</p>
-          <p class="feature"> 100% data ownership</p>
-          <p class="feature"> Email reports</p>
-        </div>
-
-        <button class="trial"> Start my trial</button>
 
       </div>
+
+
+
+
+
+      <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16"
+        onchange="updateValue(this.value)">
+      <output for="range" class="output"></output>
+
+      <div class="billing">
+        <p class="month-text"> Monthly Billing</p>
+
+        <label class="switch">
+          <input id="check" type="checkbox" onclick="updateCheck()">
+          <span class="slider round"></span>
+        </label>
+
+        <p class="year-text"> Yearly Billing <span class="discount"> 25% discount</span></p>
+      </div>
+
+
+      <div class="features">
+        <p class="feature"> Unlimited websites</p>
+        <p class="feature"> 100% data ownership</p>
+        <p class="feature"> Email reports</p>
+      </div>
+
+      <button class="trial"> Start my trial</button>
+
+    </div>
     </div>
 
     <!-- <div class="attribution">
