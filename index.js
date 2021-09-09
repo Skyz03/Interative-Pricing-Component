@@ -1,13 +1,19 @@
+
+function updateCheck() {
+
+    console.log(updateValue());
+
+    let checkVal = document.querySelector('#check').checked
+
+    if (checkVal == true) {
+        document.getElementById('per-month').innerHTML = updateValue() + "/year"
+    }
+}
+
 function updateValue(val) {
-    document.getElementById('range').value = val;
+    val = document.getElementById('range').value
 
     return document.getElementById('dollar').innerHTML = "$" + val + ".00";
 }
 
-function updateCheck(value) {
-    let checkVal = document.querySelector('#check').checked
 
-    if (checkVal == true) {
-        document.getElementById('per-month').innerHTML = updateValue(value) + "/year"
-    }
-}
