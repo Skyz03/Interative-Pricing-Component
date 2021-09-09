@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive pricing component solution
+# Frontend Mentor - Interactive pricing component solution (In progress)
 
 This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -16,9 +16,9 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+This was a relatively a fun challenge where I learned how to make custom sliders plus all the benefits of ```background-position``` and CSS Grid styles.
 
 ### The challenge
 
@@ -29,23 +29,15 @@ Users should be able to:
 - Use the slider and toggle to see prices for different page view numbers
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://user-images.githubusercontent.com/42742924/132709887-4fba4caa-0825-4344-a93e-a5127f458391.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Skyz03/Interative-Pricing-Component)
+- Live Site URL: [Add live site URL here](https://skyz03.github.io/Interative-Pricing-Component/)
 
 ## My process
+Made the components and build the grid and edited the slider with some JS application.
 
 ### Built with
 
@@ -53,18 +45,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+I learned to make custom sliders input range sliders, then a bit more detail about the CSS Grid system.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -86,9 +70,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+A lot can be developed like the JS the Mobile version and many for like toggle black and white plus animations.
 
 ### Useful resources
 
