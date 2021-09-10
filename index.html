@@ -38,41 +38,35 @@
           </div>
 
           <p class="price"> $16.00 <span class="perMonth"> /month</span></p>
-
         </div>
 
+        <!-- This section holds the billing toggle switch -->
+        <div class="choose-billing--wrap">
+          <label class="billingLabel" for="switch">Monthly Billing</label>
 
+          <!-- Billing Toggle -->
+          <div class="toggle-switch">
+            <input type="chechbox" id="switch" class="switchInput" />
+            <label for="switch" class="switchLabel" tabindex="0" role="button" aria-pressed="false">
+
+              <span class="circle"></span>
+            </label>
+          </div>
+
+          <label for="switch" class="billingLabel">Yearly Billing </label>
+          <p class="discount">-25% </p>
+          <p class="discountDesktop"> 25% discount</p>
+        </div>
       </div>
 
-
-
-
-
-      <input class="meter" type="range" name="range" id="range" min="10" max="20" steps="10" value="16"
-        onchange="updateValue(this.value)">
-      <output for="range" class="output"></output>
-
-      <div class="billing">
-        <p class="month-text"> Monthly Billing</p>
-
-        <label class="switch">
-          <input id="check" type="checkbox" onclick="updateCheck()">
-          <span class="slider round"></span>
-        </label>
-
-        <p class="year-text"> Yearly Billing <span class="discount"> 25% discount</span></p>
+      <div class="lower--container">
+        <ul class="benefits-list">
+          <li class="listItem">Unlimted websites</li>
+          <li class="listItem">100% data ownership</li>
+          <li class="listItem">Email reports</li>
+        </ul>
+        <a href="#!" class="start-trial-link">Start my trial</a>
       </div>
-
-
-      <div class="features">
-        <p class="feature"> Unlimited websites</p>
-        <p class="feature"> 100% data ownership</p>
-        <p class="feature"> Email reports</p>
-      </div>
-
-      <button class="trial"> Start my trial</button>
-
-    </div>
     </div>
 
     <!-- <div class="attribution">
@@ -81,9 +75,7 @@
     </div> -->
 
   </main>
-
-  <script src="index.js"></script>
-
 </body>
+<script src="index.js"></script>
 
 </html>
