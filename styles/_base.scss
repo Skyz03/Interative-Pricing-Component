@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: $font-stack;
+  background: color(neutral-very-pale-blue);
+  @include flexCenter(column);
+  justify-content: flex-start;
+  background-image: url("../images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  @include desktopSize {
+    background-size: 100% 60%;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
